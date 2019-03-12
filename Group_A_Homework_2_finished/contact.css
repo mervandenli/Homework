@@ -1,0 +1,254 @@
+body {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: inherit;
+}
+.meet-pic {
+  position: relative;
+  margin-bottom: -4px;
+  background-image: image();
+  width: auto;
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+  height: 50px;
+  background: #555555;
+}
+
+.header a {
+  position: relative; left: 5%; top: 1.5px;
+  float: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 11px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #E74C3C;
+}
+
+.header a:hover {
+  background-color: #E74C3C;
+  color: Black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 100px;
+}
+
+form{
+  position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 85%;
+    transform: translate(-50%,-100%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid #E74C3C;
+    padding: 5px;
+}
+.SrcLogo{
+ position: absolute;
+ right: -0%;
+ width: 40px;
+ height: 40px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display:none;
+    font-size: 1em;
+    border-radius: 200px;
+    padding: 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 250px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: #07051a;
+    color: white;
+}
+
+.up_back{
+  display:scroll;
+  position:fixed;
+  repeat: repeat-y;
+  max-height: 65px;
+  max-width: 65px;
+  bottom:25px;
+  right:25px;
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+  border: 3px;
+  border-color: #E74C3C;
+  border-radius: 50%;
+  background-color: inherit;
+}
+.up_back:hover{
+  background-color: #E74C3C;
+}
+#h3-w{
+  font-family: 'Poiret One', cursive;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 1000;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2C3E50;
+  margin-top: -20px;
+}
+.images{
+  float: left;
+  max-width: 25%;
+  max-height: 350px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.image{
+    width: 100%;
+    min-height: 350px;
+    transition-timing-function: ease-in-out;
+    transition: .5s ease ;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  bottom: 200px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.images:hover .image {
+  opacity: 0.1;
+}
+.images:hover .middle {
+  opacity: 1;
+}
+.text {
+  font-family: 'Poiret One', cursive;
+  font-style: normal;
+  font-variant: normal;
+  color: Black;
+  font-size: 32px;
+  padding: 16px 32px;
+}
+
+#footer {
+  margin-top: 35.7%;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 250px;
+  background: #555555;
+}
+
+.Mervan_contact{
+  position: relative;
+  float: left;
+  left: 14%;
+  margin-left: 0.5%;
+  margin-top: 5%;
+  width:50px;
+  height:50px;
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+  border-radius: 25px;
+  background-color: white;
+}
+.Mervan_contact:hover{
+  cursor:pointer;
+  background-color: #E74C3C;
+}
+.contacts_mervan{
+  position: relative;
+  top: 15%;
+  margin-left: 11%;
+  font-family: 'Poiret One', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-variant: small-caps;
+  color: #E74C3C;
+  font-size: 40px;
+}
+#borderLine{
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  height: 230px;
+  border-radius: 40%;
+  background-color: #E74C3C;
+  margin-top: -2.7%;
+}
+.Imran_contact{
+  position: relative;
+  float: left;
+  left: 48%;
+  margin-left: 0.5%;
+  margin-top: 2%;
+  width:50px;
+  height:50px;
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+  border-radius: 25px;
+  background-color: white;
+}
+.Imran_contact:hover{
+  cursor:pointer;
+  background-color: #E74C3C;
+}
+.contacts_imran{
+  position: relative;
+  top: auto;
+  margin-left: 58%;
+  font-family: 'Poiret One', cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-variant: small-caps;
+  color: #E74C3C;
+  font-size: 40px;
+}
